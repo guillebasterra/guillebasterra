@@ -1,40 +1,32 @@
-# Hi, I'm Guillermo 👋
+# guillermo basterra
 
-CS grad (USC '26), based in New York City. Full-stack across FastAPI, GCP, and React, with a lot of my time spent on the eval-and-infra side of LLM systems.
+M.Eng CS @ Cornell Tech ('27) · USC CS ('26) · New York
+
+I work on the eval and infra side of LLM systems: benchmarking pipelines, agentic workflows, and the layer that tells you whether a model's output can be trusted. Full-stack (FastAPI, GCP, React).
+
+Lately: deep learning, crypto / mechanism design, and audio ML. Outside of code I produce music, play soccer, and more.
 
 ---
 
-### 🔭 What I've been working on
+### work
 
-- Building **LLM evaluation pipelines** and benchmarking systems — measuring how reliably models reproduce target behavior at scale
-- **Agentic workflow automation** and multi-agent consensus protocols
-- Local-first, on-device AI tooling (retrieval architectures, knowledge graphs)
-- Currently recruiting for applied AI / LLM engineering roles at early-stage startups — [reach out below](#-connect)
-  
----
+**cognitive debugging** · local-first journaling agent
+dual retrieval: a networkx knowledge graph for personal context + a chromadb clinical corpus. runs fully on-device via ollama. tauri + react.
+[repo](https://github.com/guillebasterra/cognitive-debugging)
 
-### 📌 Featured projects
+**llm survey-response benchmarking** · prior foundry (a16z speedrun)
+pipeline measuring how well llms reproduce human survey-response distributions. simbench + socsci210, ~227k rows on bigquery. confidence-scoring and profile-ablation harness. playwright, pytest, github actions.
 
-**🧠 Cognitive Debugging** — *Local-first agentic journaling*
-A privacy-preserving journaling system with a dual-retrieval architecture: a NetworkX knowledge graph for personal context plus a ChromaDB clinical corpus, running fully on-device via Ollama. Tauri + React frontend.
-[→ repo](https://github.com/guillebasterra/cognitive-debugging)
+**multi-agent consensus** · pencil ai
+a protocol for getting multiple model agents to agree on eval judgments more reliably than a single grader.
 
-**📊 LLM Survey-Response Benchmarking** — *Research engineering @ Prior Foundry (a16z Speedrun)*
-A validation and benchmarking pipeline (SimBench + SocSci210, ~227K rows on BigQuery/GCP) measuring how well LLMs reproduce human survey-response distributions. Built with Playwright e2e tests, a pytest backend suite, and a GitHub Actions CI/CD pipeline.
+**audio-visual piano transcription** · in progress
+deep learning project: transcribing piano performance from video + audio together.
 
-**🤝 Multi-Agent Consensus Protocol** — *@ Pencil AI*
-A consensus protocol for LLM evaluation — getting multiple model agents to agree on judgments more reliably than a single grader.
-
-**🎞️ guillermobasterra.com** — *Personal site*
-A Next.js portfolio with a custom ASCII-art rendering layer and film photography as the narrative spine.
+**guillermobasterra.com**
+next.js. custom ascii-art rendering over film photography.
 <!-- TODO: link the repo if public -->
 
 ---
 
-### 📫 Connect
-
-[![Website](https://img.shields.io/badge/Website-guillermobasterra.com-000000?style=flat&logo=safari&logoColor=white)](https://guillermobasterra.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guillermo-basterra-diezhandino)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:guillebasterra@gmail.com)
-
-
+[site](https://guillermobasterra.com) · [linkedin](https://www.linkedin.com/in/guillermo-basterra-diezhandino) · [email](mailto:guillebasterra@gmail.com)
